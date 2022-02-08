@@ -11,6 +11,8 @@
         android:id="@+id/button_toast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
         android:text="@string/button_label_toast" />
 
     <TextView
@@ -19,12 +21,15 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/count_text_size"
         android:textStyle="bold"
-        android:textColor="@color/purple_200"
+        android:background="@color/myBackgroundColor"
+        android:textColor="@color/design_default_color_primary"
         android:text="@string/count_initial_value" />
 
     <Button
         android:id="@+id/button_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
         android:text="@string/button_label_count" />
 </LinearLayout>
